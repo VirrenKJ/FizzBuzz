@@ -19,4 +19,11 @@ public class FizzBuzzTest {
         String numberReturned = fizzBuzz.play(number);
         Assert.assertEquals("Fizz", numberReturned);
     }
+
+    @Test
+    public void testFizzDivisibleByThree(){
+        int number = 6;
+        String numberReturned = fizzBuzz.play(number);
+        Assert.assertEquals("Fizz", numberReturned);
+    }
 }
