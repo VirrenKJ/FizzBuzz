@@ -15,7 +15,7 @@ public class FizzBuzzStage2 {
         if(number%3 == 0 || String.valueOf(number).contains("3")){
             return "Fizz";
         }
-        if(number%5 == 0){
+        if(number%5 == 0 || String.valueOf(number).contains("5")){
             return "Buzz";
         }
         return String.valueOf(number);
