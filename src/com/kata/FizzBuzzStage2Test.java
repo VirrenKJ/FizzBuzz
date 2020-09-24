@@ -19,28 +19,24 @@ public class FizzBuzzStage2Test {
         String numberReturned = fizzBuzzStage2.play(number);
         Assert.assertEquals("Fizz", numberReturned);
     }
-
     @Test
     public void testFizzDivisibleByThree(){
         int number = 6;
         String numberReturned = fizzBuzzStage2.play(number);
         Assert.assertEquals("Fizz", numberReturned);
     }
-
     @Test
     public void testBuzz(){
         int number = 5;
         String numberReturned = fizzBuzzStage2.play(number);
         Assert.assertEquals("Buzz", numberReturned);
     }
-
     @Test
     public void testBuzzDivisibleByFive(){
         int number = 10;
         String numberReturned = fizzBuzzStage2.play(number);
         Assert.assertEquals("Buzz", numberReturned);
     }
-
     @Test
     public void testFizzBuzzDivisibleByThreeAndFive(){
         int number = 15;
