@@ -1,6 +1,5 @@
 package com.kata;
 
-
 public class FizzBuzz {
 
     public String play(int number){

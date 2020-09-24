@@ -47,4 +47,10 @@ public class FizzBuzzTest {
         String numberReturned = fizzBuzz.play(number);
         Assert.assertEquals("FizzBuzz", numberReturned);
     }
+    @Test
+    public void testFizzBuzzContainsThreeAndFive(){
+        int number = 53;
+        String numberReturned = fizzBuzz.play(number);
+        Assert.assertEquals("FizzBuzz", numberReturned);
+    }
 }
