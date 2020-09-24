@@ -54,15 +54,21 @@ public class FizzBuzzStage2Test {
         Assert.assertEquals("FizzBuzz", numberReturned);
     }
     @Test
-    public void testFizzBuzzDivisibleByThreeContainsFive(){
+    public void testFizzBuzzDivisibleByThreeAndContainsFive(){
         int number = 51;
         String numberReturned = fizzBuzzStage2.play(number);
         Assert.assertEquals("FizzBuzz", numberReturned);
     }
     @Test
-    public void testFizzBuzzDivisibleByFiveContainsThree(){
+    public void testFizzBuzzDivisibleByFiveAndContainsThree(){
         int number = 35;
         String numberReturned = fizzBuzzStage2.play(number);
         Assert.assertEquals("FizzBuzz", numberReturned);
+    }
+    @Test
+    public void testFizzContainsThree(){
+        int number = 13;
+        String numberReturned = fizzBuzzStage2.play(number);
+        Assert.assertEquals("Fizz", numberReturned);
     }
 }
