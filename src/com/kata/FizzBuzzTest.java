@@ -53,4 +53,10 @@ public class FizzBuzzTest {
         String numberReturned = fizzBuzz.play(number);
         Assert.assertEquals("FizzBuzz", numberReturned);
     }
+    @Test
+    public void testFizzBuzzDivisibleByThreeContainsFive(){
+        int number = 51;
+        String numberReturned = fizzBuzz.play(number);
+        Assert.assertEquals("FizzBuzz", numberReturned);
+    }
 }
