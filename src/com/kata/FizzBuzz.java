@@ -6,6 +6,9 @@ public class FizzBuzz {
         if(String.valueOf(number).contains("3") && String.valueOf(number).contains("5")){
             return "FizzBuzz";
         }
+        if(number%3 == 0 && String.valueOf(number).contains("5")){
+            return "FizzBuzz";
+        }
         if(number%15 == 0){
             return "FizzBuzz";
         }
