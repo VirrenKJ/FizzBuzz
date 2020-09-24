@@ -1,6 +1,6 @@
 package com.kata;
 
-public class FizzBuzz {
+public class FizzBuzzStage2 {
 
     public String play(int number){
         if(String.valueOf(number).contains("3") && String.valueOf(number).contains("5")){
@@ -22,9 +22,9 @@ public class FizzBuzz {
     }
 
     public static void main(String[] args) {
-        FizzBuzz fizzBuzz = new FizzBuzz();
+        FizzBuzzStage2 fizzBuzzStage2 = new FizzBuzzStage2();
         for (int i=1; i <=100; i++){
-            System.out.println(fizzBuzz.play(i));
+            System.out.println(fizzBuzzStage2.play(i));
         }
     }
 }
