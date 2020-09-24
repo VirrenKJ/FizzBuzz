@@ -71,4 +71,10 @@ public class FizzBuzzStage2Test {
         String numberReturned = fizzBuzzStage2.play(number);
         Assert.assertEquals("Fizz", numberReturned);
     }
+    @Test
+    public void testBuzzContainsFive(){
+        int number = 52;
+        String numberReturned = fizzBuzzStage2.play(number);
+        Assert.assertEquals("Buzz", numberReturned);
+    }
 }
